@@ -1,0 +1,20 @@
+{
+  /* types folder is included for transpiling */
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "module": "es2020",
+    "moduleResolution": "node",
+    /* noEmit - Snowpack builds (emits) files, not tsc. */
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "ES5"
+  }
+}
